@@ -11,7 +11,7 @@
   position: absolute;
   width: 40px;
   height: 25px;
-  top: calc(0% - 12.5px);
+  top: 20px;
   right: calc(50% - 20px);
   background-image: url('../assets/logoProject.svg');
 }
@@ -41,15 +41,37 @@
   color: #808080;
 } 
 
+.project-cards--container{
+  /* margin: 15px auto; */
+  width: 100%;
+
+}
+
+@media (min-width:768px) {
+  .project-cards--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
+
+@media (min-width:1200px) {
+  .project-cards--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .project-detail-card {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   min-width: 288px;
   max-width: 400px;
   min-height: 230px;
+  margin: 5px;
   /* height: 230px; */
-  margin: 15px auto;
+  margin: 5px auto;
   padding: 15px;
   background-color: var(--black);
   border-radius: 5px;
