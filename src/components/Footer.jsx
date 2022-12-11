@@ -8,7 +8,7 @@ const Footer = () => {
       <section className='left'>
         <ul>
           <li><a href="https://linkedin.com/in/dieguidev" target='_blank'>Linkedin</a></li>
-          <li><a  href="https://docs.google.com/document/d/156eXeIpKt_2AKKVaUDHzmEFRC3LcVnlq/edit" target='_blank'>Curriculum Vitae</a></li>
+          <li><a  href="https://drive.google.com/file/d/1ugJt-MnuLHBrYu4WBygFK7UJl-cFiuAl/view?usp=share_link" target='_blank'>Curriculum Vitae</a></li>
           <li><a href="https://github.com/dieguitooo12345" target='_blank'>GITHUB</a></li>
         </ul>
       </section>

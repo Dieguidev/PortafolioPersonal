@@ -8,7 +8,7 @@ import imgWeatherApp from '../assets/imgWeatherApp.png'
 
 const MainProjectsDetail = () => {
   return (
-    <section className='main-projects-detail'>
+    <section className='main-projects-detail' id='projects'>
       <span className='project-detail-logo'></span>
       <div className='projects-detail-title'>
         <h2>Creo paginas web para la mejor experiencia de usuario</h2>
